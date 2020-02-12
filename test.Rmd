@@ -1,0 +1,21 @@
+---
+title: "Example picture"
+author: ''
+date: 'Today'
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE)# please knit with `echo=TRUE, eval=TRUE`
+```
+<br><br>
+
+# This is a basic example
+of how to insert pictures in Rmarkdown files
+
+![](pic1.png)
+
+
+![](screen_shots/pic2.png)
